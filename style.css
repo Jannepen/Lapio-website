@@ -1,27 +1,49 @@
 .teksti { color: red; }
+.elementin-teksti { color: blue }
 h1 { color: blue; }
 h2 { color: red; }
 h3 { color: red; }
 ul { color: purple; }
 .jatkuu { color:brown; }
 .first-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 200px;
     height: 100px;
     background-color: red;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 10px;
+    border-color: green;
   }
   .second-box-container {
     width: 200px;
     height: 100px;
     background-color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
     position: relative;
     left: 250px;
-    bottom: 116px;
+    bottom: 120px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: red;
   }
   .third-box-container {
     width: 200px;
     height: 100px;
     background-color: green;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
     position: relative;
     left: 500px;
-    bottom: 232px;
+    bottom: 240px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
   }
